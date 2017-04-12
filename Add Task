@@ -1,0 +1,39 @@
+@extends('layouts.parent')
+
+@section('killer')
+
+@section('title', '| Add Task')
+
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+            {!! Form::open(['route'=>'add_task.store','class'=>'form']) !!}
+            <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+            {!! Form::label('Name of Task') !!}
+
+            {!! Form::text('name',null,['class'=>'form-control']) !!}
+                @if ($errors->has('name'))
+                    <span class="help-block">
+                        <strong>{{ $errors->first('name') }}</strong>
+                    </span>
+                @endif
+            </div>
+            {!! Form::label('Status') !!}
+
+            {!! Form::select('status',['completed'=>'Completed','uncompleted'=>'Un-completed'],'uncompleted',['class'=>'form-control']) !!}
+            <br>
+
+            <div class="row">
+					    <div class="col-sm-3">
+            {!! Form::submit('Save',['class'=>'btn btn-success btn-block']) !!}
+            {!! Form::close() !!}
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    @endsection
