@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+
+  <body class="news">
+    <header>
+      <div class="nav">
+        <ul>
+          <li class="home"><a href="home.html">Home</a></li>
+          <li class="aboutme"><a href="aboutme.html">About Me</a></li>
+          <li class="contact"><a href="contact.html" class="active">Contact</a></li>
+          <li class="gallery"><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </header>
+
+      <div class="row">
+      <div class="col-md-12 col-md-offset-2">
+        <h1>Contact Me</h1>
+        <hr>
+      </div>
+        <div class="col-md-8 col-md-offset-2">
+            <strong>Mobile:  +233572746227. </strong> <hr>
+            <strong>Email :  nanaquophi5@gmail.com.</strong><hr>           
+          <strong>Address:  AX 1275,Takoradi </strong><hr>
+            
+          </div>
+
+      <div class="col-md-8 col-md-offset-2">
+        <form action="" method="post">
+          <div>
+            <textarea rows=5 cols=100 class="text-style">Type Your Message Here ...</textarea>
+          </div>
+            <input type="submit" value="Send Message" class="spacing btn btn-success">
+        </form>
+      </div>
+    </div>
+
+      <link rel="javascript" src="js/bootstrap.min.js">
+      <div class="row spacing">
+          <footer id="my_footer">
+	<marquee>Copyright &copy; Terry 2017.</marquee>
+</footer>
+      </div>
+  </body>
+</html>
