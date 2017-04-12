@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/gallery.css">
+	<title>Trident Imperial</title>
+</head>
+<body style  ="background-color:powderblue;">
+<header id="top_header">
+<background-color:blue>
+	
+</header>
+<nav id="top_menu">
+<ul>
+  <li><a href="index.html" alt="Home page">Home</a></li>
+  <li><a href="about.html" alt="About page">About</a></li>
+  <li><a href="gallery.html" alt="Gallery page">Gallery</a></li>
+  <li><a href="contact.html" alt="Contact page">Contact</a></li>
+</ul>	
+</nav>
+<section id="main_section">
+	<p><h3>You are welcome to Trident Imperial</h3></p>
+	
+</section>
+<section id="image_section">
+
+<div class="img" >
+  
+    <img src="images/71.jpg" alt="jessica" width="900" height="700">
+</div>
+
+<br><br>
+<div>
+
+</div>
+</div>
+
+</section>
+<footer id="my_footer">
+	Copyright &copy; Terry 2017.
+</footer>
+</body>
+</html>
