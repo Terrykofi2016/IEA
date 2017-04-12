@@ -1,0 +1,38 @@
+@extends('layouts.parent')
+
+@section('killer')
+
+@section('title', '| Edit Task')
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+            {!! Form::model($task,['route'=>['add_task.update',$task->id],'method'=>'patch','class'=>'form']) !!}
+            <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+            {!! Form::label('Name of Task') !!}
+
+            {!! Form::text('name',null,['class'=>'form-control']) !!}
+                @if ($errors->has('name'))
+                    <span class="help-block">
+                        <strong>{{ $errors->first('name') }}</strong>
+                    </span>
+                @endif
+            </div>
+            {!! Form::label('Status') !!}
+
+            {!! Form::select('status',['completed'=>'Completed','uncompleted'=>'Un-completed'],$task->status,['class'=>'form-control']) !!}
+            <br>
+
+            <div class="row">
+					    <div class="col-sm-3">
+              {!! Form::submit('Update',['class'=>'btn btn-success btn-block']) !!}
+              {!! Form::close() !!}
+              </div>
+
+              <div class="col-sm-3">
+              {!! Html::linkRoute('add_task.index', 'Cancel', array($task->id), array('class' => 'btn btn-warning btn-block')) !!}
+            </div>
+
+        </div>
+
+    </div>
+@endsection
