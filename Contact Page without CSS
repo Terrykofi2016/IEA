@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+	<ul class="navigation">
+	
+			
+	<div id="contents">
+		<div class="clearfix">
+			<div class="sidebar">
+				<div>
+					<h2>Contact Info</h2>
+					<ul class="contact">
+						<li>
+							<p>
+								<span class="home"></span> <em>Trident Imperial<br> CT 1456 cantoments</em>
+							</p>
+						</li>
+						<li>
+							<p class="phone">
+								Phone: (+233)0206989813
+							</p>
+						</li>
+						<li>
+							<p class="fax">
+								Tel: (+233)0572746227
+							</p>
+						</li>
+						<li>
+							<p class="mail">
+								Email: Nanaquophi5@gmail.com
+								     
+							</p>
+							
+						</li>
+						<ul class="navigation">
+				<li class="active">
+					<a href="index.html">Home</a>
+				</li>
+				
+				
+					<li>
+					<a href="services.html">Services</a>
+				</li> 
+				
+				
+				
+				<li>
+					<a href="contact.html'">Contact</a>
+				</li>
+				<li>
+					<a href="about.html">About Us</a>
+				</li>
+			</ul>
+					</ul>
+				</div>
+			</div>
+			
+</body>
+</html>
