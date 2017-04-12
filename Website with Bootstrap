@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+
+  <body class="news">
+    <header>
+      <div class="nav">
+        <ul>
+          <li class="home"><a href="home.html" class="active">Home</a></li>
+          <li class="aboutme"><a href="aboutme.html">About Me</a></li>
+          <li class="contact"><a href="contact.html">Contact</a></li>
+          <li class="gallery"><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="jumbotron form-space">
+        <h1 class="text-center">My Personal Website</h1>
+      </div>
+
+      <div class="form-space">
+        <strong class="text-center">  <h3>Have Fun While You Are Here</h3></strong>
+      </div>
+
+      <link rel="javascript" src="js/bootstrap.min.js">
+
+    <div class="row spacing">
+         <footer id="my_footer">
+	<marquee>Copyright &copy; Terry 2017.</marquee>
+</footer>
+      </div>
+    </body>
+</html>
