@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/style1.css" type="text/css">
+</head>
+<body>
+<div id="contents">
+		<div class="clearfix">
+			<h1>Welcome To Trident Imperial</h1>
+			<div class="frame2">
+				<div class="box">
+					<img src="images/pic2.jpg" alt="Img" height="298" width="924">
+				</div>
+			</div>
+
+				
+	
+			
+			<ul class="navigation">
+				
+				</li>
+				
+				
+					<li>
+					<a href="services.html">Services</a>
+				</li> 
+				
+				
+				
+				<li>
+					<a href="contact.html'">Contact</a>
+				</li>
+				<li>
+					<a href="about.html">About Us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
